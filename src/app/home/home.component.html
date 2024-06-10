@@ -1,28 +1,27 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container">
-    <a class="navbar-brand" href="#">Phils</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-lg container">
+  <div class="container-fluid">
+    <!-- Work if the screen is shrink -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item mx-2">
+
+    <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
+      <a class="navbar-brand col-lg-3 me-0" href="#">Philip Wanderrienov</a>
+      <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+        <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item mx-2" data-aos="fade-up">
+        <li class="nav-item">
           <a class="nav-link" href="#">About Me</a>
         </li>
-        <li class="nav-item mx-2">
+        <li class="nav-item">
           <a class="nav-link" href="#">My Projects</a>
         </li>
       </ul>
-    </div>
-    <div class="d-flex justify-content-right">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="btn btn-warning text-white " href="#">Resume</a>
-        </li>
-      </ul>
+      <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+        <button class="btn btn-primary">My Resume</button>
+      </div>
     </div>
   </div>
 </nav>
@@ -30,3 +29,5 @@
 <app-hero></app-hero>
 
 <app-about-me></app-about-me>
+
+<app-my-service></app-my-service>
